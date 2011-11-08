@@ -1,0 +1,9 @@
+*.rbc
+doc/
+/doc
+pkg/
+/pkg
+coverage/
+.yardoc/
+/tags
+TAGS
