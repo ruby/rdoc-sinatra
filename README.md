@@ -1,29 +1,29 @@
 rdoc-sinatra
-------------
+============
 
 RDoc plugin for documenting Sinatra applications.
 
 
 Homepage and Bugtracker
-=======================
+-----------------------
 
 https://github.com/rdoc/rdoc-sinatra
 
 
 Requirements
-============
+------------
 
 - rdoc 3+
 
 
 Installation
-============
+------------
 
 `$ gem install rdoc-rake`
 
 
 Usage
-=====
+-----
 
 `$ rdoc FILE_OR_DIR […]`
 
@@ -46,7 +46,7 @@ The route docs are placed under a fake class called Application Routes.
 
 
 Limitations/TODO
-================
+----------------
 
 - Currently all routes are parsed into the top-level Application Routes.
 This'll probably change in the next version.
@@ -56,7 +56,7 @@ on aren't documented separately (you'll just see the entire pattern).
 
 
 Licence
-=======
+-------
 
 (The MIT License)
 
