@@ -1,16 +1,13 @@
 # -*- encoding: utf-8 -*-
 
-require "rubygems"
-
-gem "rdoc", "~> 3"
-  require "rdoc"
-  require "rdoc/parser/ruby"
+require "rdoc"
+require "rdoc/parser/ruby"
 
 
 #
 # Artificial scope for top-level routes.
 #
-class RDoc::SinatraRoutes < RDoc::AnonClass#RDoc::NormalModule
+class RDoc::SinatraRoutes < RDoc::AnonClass
 end
 
 #

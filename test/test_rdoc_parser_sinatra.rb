@@ -3,14 +3,10 @@
 require "stringio"
 require "tempfile"
 
-require "rubygems"
+require "rdoc"
+require "rdoc/parser/sinatra"
 
-gem "rdoc", "~> 3"
-  require "rdoc"
-  require "rdoc/parser/sinatra"
-
-gem "minitest"
-  require "minitest/autorun"
+require "minitest/autorun"
 
 
 class TestRDocParserSinatra < MiniTest::Unit::TestCase
