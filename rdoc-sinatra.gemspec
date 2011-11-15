@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |s|
   s.name          = "rdoc-sinatra"
-  s.version       = `git tag -l`.chomp.to_i + 1
+  s.version       = `git tag -l | wc -l`.chomp.to_i + 1
 
   s.platform      = Gem::Platform::RUBY
 
-  s.authors       = %w{Eero Saynatkari}
-  s.email         = %w{projects@kittensoft.org}
+  s.authors       = ["Eero Saynatkari"]
+  s.email         = ["projects@kittensoft.org"]
   s.homepage      = "http://github.com/rdoc/rdoc-sinatra"
 
   s.summary       = %q{RDoc for Sinatra routes.}
