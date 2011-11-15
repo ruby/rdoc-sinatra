@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name          = "rdoc-sinatra"
-  s.version       = `git tag -l | wc -l`.chomp.to_i + 1
+  s.version       = `git tag -l | wc -l`.chomp.to_i
 
   s.platform      = Gem::Platform::RUBY
 
