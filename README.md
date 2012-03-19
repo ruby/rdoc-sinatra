@@ -19,7 +19,7 @@ Requirements
 Installation
 ------------
 
-`$ gem install rdoc-rake`
+`$ gem install rdoc-sinatra`
 
 
 Usage
